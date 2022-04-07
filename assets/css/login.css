@@ -1,14 +1,14 @@
-.register-form__controls{
+.register-form__controls {
     margin-top: 60px;
 }
 
-.Forgot-password__link{
+.Forgot-password__link {
     font-size: 14px;
     display: flex;
     justify-content: end;
 }
 
-.Forgot-password__linkk{
+.Forgot-password__linkk {
     margin-top: -8px;
     margin-right: 10px;
 }

@@ -1,30 +1,31 @@
-.register{
+.register {
     width: 100%;
     height: 100%;
     background-image: url("https://sieuthibanghe.vn/wp-content/uploads/2021/03/thiet-ke-noi-that-shop-quan-ao-7.jpg");
 }
-.register-form{
-    width: 500px;
-} 
 
-.register-form__container{
+.register-form {
+    width: 500px;
+}
+
+.register-form__container {
     padding: 0 32px;
 }
 
 
-.register-form__header{
+.register-form__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.register-form__heading{
+.register-form__heading {
     font-size: 2.2rem;
     font-weight: 400;
     color: var(--text-color);
 }
 
-.register-form__nextlogin{
+.register-form__nextlogin {
     font-size: 1.6rem;
     font-weight: 500;
     color: #ff7322;
@@ -32,11 +33,11 @@
 
 }
 
-.register-form__form{
+.register-form__form {
     margin-top: 12px;
 }
 
-.register-form__input{
+.register-form__input {
     width: 100%;
     height: 40px;
     margin-bottom: 16px;
@@ -48,34 +49,34 @@
 
 }
 
-.register-form__input:focus{
+.register-form__input:focus {
     border-color: black;
 }
 
-.register-form__policy{
+.register-form__policy {
     font-size: 12px;
     line-height: 16px;
     text-align: center;
     padding: 0 12px;
 }
 
-.register-form__link{
+.register-form__link {
     text-decoration: none;
     color: #ff7322;
 }
 
-.register-form__controls{
+.register-form__controls {
     display: flex;
     justify-content: end;
     margin-top: 100px;
 }
 
-.register-form__backindex{
+.register-form__backindex {
     margin-right: 10px;
     background-color: rgb(207, 204, 204);
 }
 
-.register-form__socials{
+.register-form__socials {
     background-color: #d8d8d8;
     margin-top: 20px;
     padding: 14px 36px;
@@ -83,38 +84,38 @@
     justify-content: space-between;
 }
 
-.socials-icon{
+.socials-icon {
     font-size: 20px;
 }
 
-.facebook{
+.facebook {
     background-color: #3A5A98;
     color: var(--while-color);
     display: flex;
 }
 
-.fa-facebook-square{
+.fa-facebook-square {
     color: var(--while-color);
-    margin-top: -4px;
+    margin-top: 6px;
     margin-right: 20px;
     margin-left: 4px;
-    
+
 }
 
-.socials-iconn{
+.socials-iconn {
     margin-top: -1px;
-    padding-right: 10px ;
+    padding-right: 10px;
 }
 
-.google{
+.google {
     background-color: white;
     display: flex;
 }
 
-.fa-google{
-    margin-top: -6px ;
+.fa-google {
+    margin-top: 4px;
     margin-right: 20px;
-    margin-left: 4px; 
+    margin-left: 4px;
     height: 25px;
     width: 25px;
 }
