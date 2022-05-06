@@ -46,7 +46,8 @@
     line-height: 14px;
     color: #009bd6;
 }
-.insert-vocher-all-right:hover{
+
+.insert-vocher-all-right:hover {
     cursor: pointer;
 }
 
@@ -73,9 +74,11 @@
     color: #ff7322;
     padding: 0 10px;
 }
-.confirm-pay-left-box-tick:hover{
+
+.confirm-pay-left-box-tick:hover {
     cursor: pointer;
 }
+
 .confirm-pay-left-box:hover {
     cursor: pointer;
 }
@@ -306,7 +309,7 @@
     font-size: 12px;
     line-height: 14px;
     background-color: #ff7322;
-    padding-right: ;
+    padding-right: 10px;
 }
 
 .produc-detail-top-icon {
@@ -350,7 +353,8 @@
     font-size: 14px;
     color: #ff7322;
 }
-.produc-detail-center-header-text3:hover{
+
+.produc-detail-center-header-text3:hover {
     cursor: pointer;
 }
 
@@ -445,9 +449,11 @@
     color: red;
     font-size: 14px;
 }
-.produc-detail-center-body-num-delete:hover{
+
+.produc-detail-center-body-num-delete:hover {
     cursor: pointer;
 }
+
 .gridx {
     padding-bottom: 115px;
 }
@@ -462,6 +468,7 @@
     color: #009bd6;
     padding-left: 10px;
 }
-.produc-detail-bottom-text:hover{
+
+.produc-detail-bottom-text:hover {
     cursor: pointer;
 }
