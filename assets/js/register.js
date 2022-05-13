@@ -11,7 +11,6 @@ function validator(options) {
                         errorElement.innerText = errorMessage;
                     } else {
                         errorElement.innerText = '';
-
                     }
                 }
             }
