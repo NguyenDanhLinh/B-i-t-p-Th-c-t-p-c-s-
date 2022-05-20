@@ -32,10 +32,12 @@
 
                         </div>
                         <div class="register-form__group">
-                            <input type="password" class="register-form__input" placeholder="Mật khẩu của bạn">
+                            <span style="color: red;" class="form-message"></span>
+                            <input type="password" id="password" class="register-form__input" placeholder="Mật khẩu của bạn">
                         </div>
                         <div class="register-form__group">
-                            <input type="password" class="register-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                            <span style="color: red;" class="form-message"></span>
+                            <input type="password" id="password_confirmation" class="register-form__input" placeholder="Nhập lại mật khẩu của bạn">
                         </div>
                     </form>
 
@@ -72,6 +74,10 @@
             form: '#form-1',
             rules: [
                 validator.isEmail('#email'),
+                validator.minLength('#password', 6),
+                validator.isConfirmed('#password_confirmation', function() {
+                    return document.querySelector('#form-1 #password').value
+                }, 'Mật khẩu nhập lại không khớp'),
             ]
         });
     </script>
